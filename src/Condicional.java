@@ -13,7 +13,7 @@ public class Condicional {
         if( tem_assinatura || tipoPlano.equals("plus") ){
             System.out.println("Tá liberado !");
         }else{
-            System.out.println("nops");
+            System.out.println("Não está liberado, assine o plano plus");
         }
     }
 }
